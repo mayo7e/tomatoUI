@@ -1,4 +1,5 @@
 import Header from "./header.js"
+import Footer from "./footer.js"
 
 
 function App() {
@@ -6,19 +7,22 @@ function App() {
     <div className="App">
       <Header />
       <main>
-          <h2>Monitor Erroe and <span>User Interaction</span></h2>
-          <h3>A Javascript client-side library for building error logs and user interaction trace dataset </h3>
-          <div className="form_grp">
-            <form>
-              <input />
-            </form>
-            <button>request access</button>
-          </div>
-      </main>
-      <footer>
-        Copyright &copy; 2022
-      </footer>
+          <h1>JavaScript library for building <span className="font-style">error</span> logs and user interaction data. </h1>
 
+          <div className="section_01">
+            <h2>Subscribe to our bi-weekly newsletter</h2>
+            <div className="form_grp">
+                <form>
+                    <input />
+                </form>
+                <button>Subscribe</button>
+            </div>
+
+          </div>
+
+      </main>
+     
+      <Footer />
     </div>
   );
 }
