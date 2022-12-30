@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Commissioner', sans-serif;
+  
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:200px;
+  bORDER: 2PX SOLID RED;
+
+
+}
+
+
+h1{
+  padding:0;
+  margin:0;
+}
+span{
+  color:tomato;
+}
+
+nav{
+
+  padding:0;
+  
+}
+
+ul{
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  list-style-type: none;
+  padding:0;
+
+}
+.nav-pg-01{
+  display: flex;
+  gap: 1.4rem;
+}
+
+.nav-pg-02{
+  display: flex;
+  justify-content: space-around;
+}
+
