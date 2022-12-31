@@ -1,9 +1,10 @@
 
 import React from 'react'
+import {Link} from "react-router-dom"
 
 const header = () => {
   return (
-    <div>
+    
         
             <header>
                 <div className="logo" >
@@ -12,7 +13,7 @@ const header = () => {
                 <nav>
                     <ul  className="nav-pg-01">
                         <li>Docs</li>
-                        <li>Blog</li>
+                        <Link target="_blank" to="/blog"><li>Blog</li></Link>
                         <li>Community</li>
                     </ul>
                 
@@ -24,7 +25,7 @@ const header = () => {
                 </nav>
             </header>
 
-    </div>
+    
   )
 }
 
