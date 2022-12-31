@@ -1,28 +1,22 @@
-import Header from "./header.js"
-import Footer from "./footer.js"
+import Home from "./home/home.js"
+import Blog from "./blog/blog.js"
+
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <main>
-          <h1>JavaScript library for building <span className="font-style">error</span> logs and user interaction data. </h1>
+      <Router>
+          <Routes>
 
-          <div className="section_01">
-            <h2>Subscribe to our bi-weekly newsletter</h2>
-            <div className="form_grp">
-                <form>
-                    <input />
-                </form>
-                <button>Subscribe</button>
-            </div>
-
-          </div>
-
-      </main>
-     
-      <Footer />
+            <Route index path="/" element={<Home />} />
+            <Route  path="blog" element={<Blog />} />
+            
+          </Routes>
+      </Router>
+    
     </div>
   );
 }
