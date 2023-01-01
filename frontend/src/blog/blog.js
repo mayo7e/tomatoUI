@@ -1,18 +1,34 @@
 
 
 import React from 'react'
-import Header from "../header.js"
-import Footer from "../footer.js"
-import BlogMain from "./blogMain.js"
 
-const blog = () => {
+import BlogMain from "./blogMain.js"
+import BlogData from "./blogData.js"
+
+
+const Blog = () => {
+    
+    const [blogPosts, setBlogPosts] = React.useState(BlogData.blogs)
+
+   
+    
+   
+        const eachPost = blogPosts.map(blogPost =>
+            <BlogMain
+            key={blogPost.user_id}
+            blogPost = {blogPost}
+            
+            />
+            )
+       
+    
   return (
     <div>
-      <Header />
-      <BlogMain />
-      <Footer />
+     
+      {eachPost}
+     
     </div>
   )
 }
 
-export default blog
+export default Blog

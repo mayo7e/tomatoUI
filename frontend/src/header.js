@@ -8,12 +8,12 @@ const header = () => {
         
             <header>
                 <div className="logo" >
-                    <h1><span>tomato</span>UI</h1>
+                <Link to="/"><h1><span>tomato</span>UI</h1></Link>
                 </div>
                 <nav>
                     <ul  className="nav-pg-01">
                         <li>Docs</li>
-                        <Link target="_blank" to="/blog"><li>Blog</li></Link>
+                        <Link to="/blog"><li>Blog</li></Link>
                         <li>Community</li>
                     </ul>
                 

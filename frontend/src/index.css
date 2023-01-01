@@ -99,6 +99,8 @@ button{
 }
 
 
+
+
 /* =======
 footer
 ======= */
@@ -124,4 +126,46 @@ footer{
   color:grey;
 
 
+}
+
+
+
+/* =====
+Blog
+====== */
+
+.blogM{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0
+}
+
+.blog_post_grp{
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+
+  /* border: 2px solid tomato; */
+  width: 80%;
+}
+.blog_post{
+  border: 2px solid tomato;
+}
+
+img{
+  width: 100%;
+  /* height: 80%; */
+
+}
+
+.blog_post_info{
+  color: white;
+  cursor: pointer;
+
+}
+
+
+a:Link{
+  text-decoration: none;
 }
