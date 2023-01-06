@@ -15,6 +15,9 @@ const BlogPost = () => {
     <div className='blogM'>
         <div className='blog_post_grp' >
             <h2>{eachBlogPost.post_title}</h2>
+            <p>{eachBlogPost.post_created_date}</p>
+            <p>{eachBlogPost.post_Author}</p>
+            <p>{eachBlogPost.post}</p>
         </div>
     </div>
   )
