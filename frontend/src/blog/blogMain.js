@@ -20,7 +20,7 @@ const blogMain = (props) => {
                 </div>
 
                 <p>
-                    {props.blogPost.post}
+                    {props.blogPost.post_snippet}
                 </p>
 
             </div></Link>

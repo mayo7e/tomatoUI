@@ -10,7 +10,7 @@ export default {
         created_date: 1402964756,
         Authors: "MayowaA",
         post_img: "stack_trace.png",
-        post_snippet: "A stack trace is a report of the active stack frames at a certain point in time during the execution of a computer program.",
+        post_snippet: "A stack trace is a report of the active stack frames at a certain point in time during the execution of a computer program...",
         post: "  A stack trace is a report of the active stack frames at a certain point in time during the execution of a computer program. It can be used to determine the sequence of function calls that led to a specific point in the code being reached, and can be useful for debugging and troubleshooting errors that occur during the execution of a program."
        
     },
@@ -22,7 +22,7 @@ export default {
         created_date: 1402964756,
         Authors: "MayowaA",
         post_img: "stack_trace.png",
-        post_snippet: "A stack trace is a report of the active stack frames at a certain point in time during the execution of a computer program.",
+        post_snippet: "A stack trace is a report of the active stack frames at a certain point in time during the execution of a computer program...",
         post: "  A stack trace is a report of the active stack frames at a certain point in time during the execution of a computer program. It can be used to determine the sequence of function calls that led to a specific point in the code being reached, and can be useful for debugging and troubleshooting errors that occur during the execution of a program."
       
     }

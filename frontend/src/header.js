@@ -12,7 +12,7 @@ const header = () => {
                 </div>
                 <nav>
                     <ul  className="nav-pg-01">
-                        <li>Docs</li>
+                      <Link to="/docs/getting-started"><li>Docs</li></Link>  
                         <Link to="/blog"><li>Blog</li></Link>
                         <li>Community</li>
                     </ul>
