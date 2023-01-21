@@ -22,7 +22,7 @@ gettingStarted
 .textParagraph nav {
     width: 220px;
     min-width: 220px;
-    /* padding: 16px; */
+    margin-left: 1em;
     align-self: flex-start;
     position: -webkit-sticky;
     position: sticky;
@@ -30,13 +30,45 @@ gettingStarted
     max-height: calc(100vh - 70px);
     overflow: auto;
     margin-top: 150px;
-    border: 2px solid tomato;
+    
     
 }
 .toc{
     display:flex;
     flex-direction: column;
-    text-align:left;
-    justify-content: flex-start;
+   
+    list-style-position: outside;
+    border-left: 1px solid tomato;
+   
 
 }
+nav .toc li{
+    list-style-type:circle;
+    margin-top: .4em;
+    margin-left: 1em;
+    
+    
+}
+nav .toc li a{
+    color:aliceblue;
+    
+}
+
+.head3 {
+    margin-left: 10px;
+    list-style-type: circle;
+    
+  }
+  .head4{
+    margin-left: 20px;
+    list-style-type: square;
+  }
+
+@media(max-width: 600px){
+    .textParagraph nav{
+        width: 50px;
+        max-width:50px;
+        display:none;
+        border: 2px solid green;
+    }
+  }

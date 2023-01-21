@@ -15,19 +15,19 @@ export default function Getting_started (){
                     <h1>Getting Started</h1>
                     {textParagraph}
                     <p>This page is an overview of the tomatoUI documentation and related resources.<div>tomatoUI is a JavaScript library for building user interface trace and error logs.</div></p>
-                    <h2>Try tomatoUI</h2>
+                    <h2 id='first-header'>Try tomatoUI</h2>
                     {textParagraph}
-                    <h3>Online Playgrounds</h3>
+                    <h3 id='second-header' >Online Playgrounds</h3>
                     {textParagraph}
-                    <h3>Add tomatoUI to a website</h3>
+                    <h3 id='third-header' >Add tomatoUI to a website</h3>
                     {textParagraph}
-                    <h3>Step-by-Step Guide</h3>
+                    <h3 id='fourth-header' >Step-by-Step Guide</h3>
                     {textParagraph}
-                    <h3>Step-by-Step Guide</h3>
+                    <h3 id='fifth-header' >Step-by-Step Guide</h3>
                     {textParagraph}
-                    <h3>Step-by-Step Guide</h3>
+                    <h3 id='sixth-header' >Step-by-Step Guide</h3>
                     {textParagraph}
-                    <h3>Step-by-Step Guide</h3>
+                    <h3 id='seventh-header' >Step-by-Step Guide</h3>
                     {textParagraph}
                 </div>
                 
