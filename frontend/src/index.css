@@ -178,11 +178,13 @@ a:Link{
 Components 
 ============= */
 
-.page_loader-img img{
+.page_loader-img {
   height: 5rem;
   width: 5rem;
-   display:flex;
-   justify-content: center;
+  padding-top: 5em;
 
+  margin: auto;
+
+  animation: spin 2s infinite linear;
   
 }
