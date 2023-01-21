@@ -1,8 +1,12 @@
-
+import { useAuth0 } from "@auth0/auth0-react";
 import React from 'react'
 import {Link} from "react-router-dom"
+import LoginButton from "./components/buttons/login-button.js"
+import LogoutButton from "./components/buttons/logout-button.js"
+import SignupButton from "./components/buttons/signup-button.js"
 
-const header = () => {
+const Header = () => {
+  const { isAuthenticated} = useAuth0();
   return (
     
         
@@ -22,6 +26,20 @@ const header = () => {
                         <li>Github</li>
                         <li>twitter</li>
                     </ul>
+                    {!isAuthenticated && (
+                      <>
+                      <LoginButton />
+                      <SignupButton />
+                      
+                      </>
+                    ) }
+                    {isAuthenticated && (
+                      <>
+                        <LogoutButton />
+                      </>
+
+                    )}
+
                 </nav>
             </header>
 
@@ -29,4 +47,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

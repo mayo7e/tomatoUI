@@ -12,6 +12,10 @@ body{
   
 }
 
+.App{
+  padding: .5em;
+}
+
 
 header{
   display: flex;
@@ -168,4 +172,19 @@ img{
 
 a:Link{
   text-decoration: none;
+}
+
+/* =============
+Components 
+============= */
+
+.page_loader-img {
+  height: 5rem;
+  width: 5rem;
+  padding-top: 5em;
+
+  margin: auto;
+
+  animation: spin 2s infinite linear;
+  
 }
